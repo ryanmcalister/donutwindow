@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>donut.png</file>
+        <file>donutmask.png</file>
+    </qresource>
+</RCC>

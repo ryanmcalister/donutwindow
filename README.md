@@ -21,7 +21,7 @@ setClearColor(Qt::transparent);
 ## The Mask
 In order for mouse and focus events to pass through the transparent areas of the window, a mask is needed. The setMask() method of the QQuickWidget is used which accepts either a QRegion or QBitmap. For the donut window we use a monochrome image that matches the donut shape. This way only the donut area catches mouse events.
 
-```
+```c++
 setMask(QBitmap::fromImage(QImage(":/donutmask.png")));
 ```
 
